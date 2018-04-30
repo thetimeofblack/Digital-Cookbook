@@ -7,11 +7,11 @@ Digital Cookbook
 Part task: User account and comment system
 
 Group 9
-ZHOU Kaiwen
-LU Qin
-QING Derui
-TAO Liwei
-TANG Yimin
+ZHOU, Kaiwen
+LU, Qin
+QING, Derui
+TAO, Liwei
+TANG, Yimin
 
 
 
@@ -25,24 +25,24 @@ Content
 
 1.	Specification	3
 1.1.	Description	3
-1.1.1.	Cleaning help	Fehler! Textmarke nicht definiert.
+1.1.1.	Digital cookbook	3
 1.1.2.	Additional Task	3
 1.2.	Product functions	3
 1.3.	User characteristics	3
-1.4.	Functional requirements	3
-1.5.	Non-functional requirements	3
-2.	UML Specification	4
-2.1.	Use Cases	4
-2.2.	Class Diagrams	4
-3.	GUI Design	5
-3.1.	Structure	5
-3.2.	Screenshots	5
-4.	Test	6
-4.1.	Description	6
-4.2.	Results	6
-5.	Evaluation	7
-5.1.	Group Work	7
-5.2.	Task Responsibilities	7
+1.4.	Functional requirements	4
+1.5.	Non-functional requirements	5
+2.	UML Specification	5
+2.1.	Use Cases	5
+2.2.	Class Diagrams	5
+3.	GUI Design	6
+3.1.	Structure	6
+3.2.	Screenshots	6
+4.	Test	7
+4.1.	Description	7
+4.2.	Results	7
+5.	Evaluation	8
+5.1.	Group Work	8
+5.2.	Task Responsibilities	8
 
 
 
@@ -71,7 +71,7 @@ Users can register and log in the system. They can also make comments on every r
 6. Administrators can edit a recipe if the recipe is already existed.
 7. Users can search recipes by name.
 8. Users can register their own account.
-9.After registration, users will have their own profile interface , showing their information and comments 
+9.After registration, users will have their own profile interface, showing their information and comments 
 10.Users can add comments to a specific recipe.
 11. Comments made by all the users on the same recipe will be displayed in the comment area of a recipe 
 12. Users are allowed to delete their own comments.
@@ -93,16 +93,16 @@ And after the recipe successfully uploaded to the database, a confirmation messa
 And after the altered recipe successfully uploaded to the database, a confirmation message will be shown.
 3. A delete button will only be shown to the administrator on a specific recipe page. Then a confirmation message will be shown to the administrator to make sure whether the administrator really want to delete the recipe. And after the recipe successfully deleted from the database, another confirmation message will be shown.
 4. User can click the "login/register" button to go to the login page, which contains input boxes for username and password and a button to confirm login. Besides, it has a link to the register page for new users to register. After the user login, user will be redirect to its profile page.
-5. In the register page, the new user has to fill the blanks of its personal information. And then the new user has to set their own password and a automatically generated username(ID) will be shown. So the new user can login with the username and password.
-6. Users can search recipes by name through Digital cookbook. After they type the name of the recipe, the name and amount of ingredients and steps of preparation would be showed by line on the operation interface. If there is no corresponding name of the recipe in the database, a message of °∞No results°± will be showed on the operation interface.
-7. °∞Add comments°± button will be shown on each recipe page to every user. After a user click the button, if he/she hasn°Øt registered an account, the page will be redirected to the register page , if he/she has registered an account , the page will be redirected to the comment editing page.
-8. Comment box will be shown at the bottom of each recipe page. °∞Add comments°± button will be shown beside the comment box. Users can type their comments in the comment box. After °∞Add comments°± button is clicked, if there is no content in the comment box, a fail message will be sent to the user. Otherwise, if the user hasn°Øt registered an account, the page will be redirected to the register page. If the user has registered an account, the comment will be added to the comment area. After the comment is added successfully, a success message will be sent to the user.
+5. In the register page, the new user has to fill the blanks of its personal information. And then the new user has to set their own password and an automatically generated username(ID) will be shown. So, the new user can login with the username and password.
+6. Users can search recipes by name through Digital cookbook. After they type the name of the recipe, the name and amount of ingredients and steps of preparation would be showed by line on the operation interface. If there is no corresponding name of the recipe in the database, a message of ‚ÄúNo results‚Äù will be showed on the operation interface.
+7. ‚ÄúAdd comments‚Äù button will be shown on each recipe page to every user. After a user click the button, if he/she hasn‚Äôt registered an account, the page will be redirected to the register page, if he/she has registered an account, the page will be redirected to the comment editing page.
+8. Comment box will be shown at the bottom of each recipe page. ‚ÄúAdd comments‚Äù button will be shown beside the comment box. Users can type their comments in the comment box. After ‚ÄúAdd comments‚Äù button is clicked, if there is no content in the comment box, a fail message will be sent to the user. Otherwise, if the user hasn‚Äôt registered an account, the page will be redirected to the register page. If the user has registered an account, the comment will be added to the comment area. After the comment is added successfully, a success message will be sent to the user.
 9. A comment consists of
     User name
     Comment time
     The order of the comment
     Comment content
-10. For administrators, °±Delete°± button will be shown beside each comment on each recipe page. But for users,  °∞Delete°± button will only be shown beside the comments given by themselves. After clicking the °∞Delete°± button, the comment will be removed from the comment area. After delete the comment successfully, a success message will be sent to the operator. 
+10. For administrators, ‚ÄúDelete‚Äù button will be shown beside each comment on each recipe page. But for users, ‚ÄúDelete‚Äù button will only be shown beside the comments given by themselves. After clicking the ‚ÄúDelete‚Äù button, the comment will be removed from the comment area. After delete the comment successfully, a success message will be sent to the operator. 
 
 
 1.5.	Non-functional requirements
@@ -113,22 +113,22 @@ And after the altered recipe successfully uploaded to the database, a confirmati
 5.The bug should be dealt with immediately no longer than two days.
 6.The administrator should manage the comment easily.
 7. Private data of users should be protected and cannot be stolen.
-8. Digital cookbook can hold at most 1000 different recipes.
+8. Digital cookbook can hold at least 1000 different recipes.
 9. Users can give feedback to the developers when there are errors and improvements.
 2.	UML Specification
 2.1.	 Use Cases
 2.2.	 Class Diagrams
-?
+‚ÄÉ
 3.	 GUI Design
 3.1.	Structure
 3.2.	Screenshots
 
 
-?
+‚ÄÉ
 4.	Test 
 4.1.	 Description
 4.2.	 Results
-?
+‚ÄÉ
 5.	 Evaluation
 5.1.	 Group Work
 5.2.	 Task Responsibilities
