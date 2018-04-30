@@ -1,0 +1,161 @@
+
+
+
+
+Software Engineering II Project
+Digital Cookbook
+Part task: User account and comment system
+
+Group 9
+ZHOU Kaiwen
+LU Qin
+QING Derui
+TAO Liwei
+TANG Yimin
+
+
+
+
+
+
+
+
+
+Content
+
+1.	Specification	3
+1.1.	Description	3
+1.1.1.	Cleaning help	Fehler! Textmarke nicht definiert.
+1.1.2.	Additional Task	3
+1.2.	Product functions	3
+1.3.	User characteristics	3
+1.4.	Functional requirements	3
+1.5.	Non-functional requirements	3
+2.	UML Specification	4
+2.1.	Use Cases	4
+2.2.	Class Diagrams	4
+3.	GUI Design	5
+3.1.	Structure	5
+3.2.	Screenshots	5
+4.	Test	6
+4.1.	Description	6
+4.2.	Results	6
+5.	Evaluation	7
+5.1.	Group Work	7
+5.2.	Task Responsibilities	7
+
+
+
+
+
+
+
+
+
+
+
+
+1.	 Specification
+1.1.	Description
+1.1.1.	 Digital cookbook
+Digital cookbook is a software which displays recipes on the computer platform instead of traditional paper books. 
+Digital cookbook is based on a database which stores all of the recipes including the ingredients and preparation steps.
+1.1.2.	 Additional Task
+Users can register and log in the system. They can also make comments on every recipe. They can view their own comments.
+1.2.	Product functions 
+1.Digital cookbook is a software which displays a cookbook on the computer platform instead of traditional paper books. 
+2.Digital cookbook is based on a database which stores all of the recipes including the ingredients and preparation steps.
+3. Administrators are allowed to add recipes to the database.
+4. Users can browse several random recipes on the main interface.
+5. A certain recipe will be displayed on its respective page.
+6. Administrators can edit a recipe if the recipe is already existed.
+7. Users can search recipes by name.
+8. Users can register their own account.
+9.After registration, users will have their own profile interface , showing their information and comments 
+10.Users can add comments to a specific recipe.
+11. Comments made by all the users on the same recipe will be displayed in the comment area of a recipe 
+12. Users are allowed to delete their own comments.
+13. Developers can delete and manage all the comments given by users.
+1.3.	User characteristics 
+People without cooking skills
+People who are eager to improve their cooking skills
+People who wants to try different kinds of food or recipes
+1.4.	Functional requirements 
+1. A recipe can be added by any administrator through a page. It is mandatory for any administrator to fulfil following details of a recipe:
+  the name of recipe
+  the ingredients of recipe
+  the preparing process of recipe
+  the cooking process of recipe
+  the category information of recipe
+And it is optional to have audio and video with the recipe. If there is anything missing among the mandatory information, a warning message will be shown. After fulfilling the mandatory information, the administrator can click a "submit" or a "cancel" button, then the new recipe can be submitted or cancelled.
+And after the recipe successfully uploaded to the database, a confirmation message will be shown.
+2. An edit button will only be shown to the administrator on a specific recipe page. Then it will redirect the administrator to the edit page like the add page. After editing the recipe, the administrator can click a "confirm" or a "cancel" button to confirm or cancel.
+And after the altered recipe successfully uploaded to the database, a confirmation message will be shown.
+3. A delete button will only be shown to the administrator on a specific recipe page. Then a confirmation message will be shown to the administrator to make sure whether the administrator really want to delete the recipe. And after the recipe successfully deleted from the database, another confirmation message will be shown.
+4. User can click the "login/register" button to go to the login page, which contains input boxes for username and password and a button to confirm login. Besides, it has a link to the register page for new users to register. After the user login, user will be redirect to its profile page.
+5. In the register page, the new user has to fill the blanks of its personal information. And then the new user has to set their own password and a automatically generated username(ID) will be shown. So the new user can login with the username and password.
+6. Users can search recipes by name through Digital cookbook. After they type the name of the recipe, the name and amount of ingredients and steps of preparation would be showed by line on the operation interface. If there is no corresponding name of the recipe in the database, a message of ¡°No results¡± will be showed on the operation interface.
+7. ¡°Add comments¡± button will be shown on each recipe page to every user. After a user click the button, if he/she hasn¡¯t registered an account, the page will be redirected to the register page , if he/she has registered an account , the page will be redirected to the comment editing page.
+8. Comment box will be shown at the bottom of each recipe page. ¡°Add comments¡± button will be shown beside the comment box. Users can type their comments in the comment box. After ¡°Add comments¡± button is clicked, if there is no content in the comment box, a fail message will be sent to the user. Otherwise, if the user hasn¡¯t registered an account, the page will be redirected to the register page. If the user has registered an account, the comment will be added to the comment area. After the comment is added successfully, a success message will be sent to the user.
+9. A comment consists of
+    User name
+    Comment time
+    The order of the comment
+    Comment content
+10. For administrators, ¡±Delete¡± button will be shown beside each comment on each recipe page. But for users,  ¡°Delete¡± button will only be shown beside the comments given by themselves. After clicking the ¡°Delete¡± button, the comment will be removed from the comment area. After delete the comment successfully, a success message will be sent to the operator. 
+
+
+1.5.	Non-functional requirements
+1.User who can read paper cookbook should be able to use the Digital cookbook without the manual.
+2.User can use the Digital cookbook expertly after using it for at most twenty minutes.
+3.The probability of error when the user uses it should no more than 1%.
+4.The user interface and database should be updated once every season.
+5.The bug should be dealt with immediately no longer than two days.
+6.The administrator should manage the comment easily.
+7. Private data of users should be protected and cannot be stolen.
+8. Digital cookbook can hold at most 1000 different recipes.
+9. Users can give feedback to the developers when there are errors and improvements.
+2.	UML Specification
+2.1.	 Use Cases
+2.2.	 Class Diagrams
+?
+3.	 GUI Design
+3.1.	Structure
+3.2.	Screenshots
+
+
+?
+4.	Test 
+4.1.	 Description
+4.2.	 Results
+?
+5.	 Evaluation
+5.1.	 Group Work
+5.2.	 Task Responsibilities
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
